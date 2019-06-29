@@ -1,4 +1,4 @@
-# Vscode like sidebar
+# Vscode like sidebar for VIM
 
 > Minimal plugin that makes `netrw` more intuitive
 
