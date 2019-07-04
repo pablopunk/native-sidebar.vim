@@ -1,4 +1,4 @@
-# Vscode like sidebar for VIM
+# Native sidebar for VIM
 
 > Minimal plugin that makes `netrw` more intuitive
 
@@ -11,10 +11,10 @@ Use CONTROL+B to toggle a sidebar with your directory files, just like VSCode. T
 I use [vim-plug](https://github.com/junegunn/vim-plug)
 
 ```vim
-Plug 'pablopunk/vscode-sidebar.vim'
+Plug 'pablopunk/native-sidebar.vim'
 ```
 
-You can assign your own keyboard shortcut. Just map it to `:Lexplore`, just like [here](./plugin/vscode-sidebar.vim)
+You can assign your own keyboard shortcut. Just map it to `:Lexplore`, just like [here](./plugin/native-sidebar.vim)
 
 ## Related
 
