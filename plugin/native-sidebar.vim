@@ -1,4 +1,4 @@
-if !exists('g:native_sidebar_shortcut') | elt g:native_sidebar_shortcut = '<c-b>' | endif
+if !exists('g:native_sidebar_shortcut') | let g:native_sidebar_shortcut = '<c-b>' | endif
 
 exe 'nnoremap <silent> ' g:native_sidebar_shortcut ' :Lexplore<cr>'
 exe 'vnoremap <silent> ' g:native_sidebar_shortcut ' :Lexplore<cr>'
