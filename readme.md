@@ -14,7 +14,12 @@ I use [vim-plug](https://github.com/junegunn/vim-plug)
 Plug 'pablopunk/native-sidebar.vim'
 ```
 
-You can assign your own keyboard shortcut. Just map it to `:Lexplore`, just like [here](./plugin/native-sidebar.vim)
+You can assign your own keyboard shortcut:
+
+```vim
+" Use ctrl+T
+let g:native_sidebar_shortcut = '<c-t>'
+```
 
 ## Related
 
