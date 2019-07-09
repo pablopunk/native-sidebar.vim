@@ -2,7 +2,7 @@ if !exists('g:native_sidebar_shortcut') | let g:native_sidebar_shortcut = '<c-b>
 
 exe 'nnoremap <silent> ' g:native_sidebar_shortcut ' :Lexplore %:p:h<cr>'
 exe 'vnoremap <silent> ' g:native_sidebar_shortcut ' :Lexplore %:p:h<cr>'
-exe 'inoremap <silent> ' g:native_sidebar_shortcut ' :Lexplore %:p:h<cr>'
+exe 'inoremap <silent> ' g:native_sidebar_shortcut ' <esc>:Lexplore %:p:h<cr>'
 
 let g:netrw_altv=1
 let g:netrw_banner=0
