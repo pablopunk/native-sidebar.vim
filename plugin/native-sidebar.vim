@@ -4,6 +4,15 @@ exe 'nnoremap <silent> ' g:native_sidebar_shortcut ' :Lexplore %:p:h<cr>'
 exe 'vnoremap <silent> ' g:native_sidebar_shortcut ' :Lexplore %:p:h<cr>'
 exe 'inoremap <silent> ' g:native_sidebar_shortcut ' <esc>:Lexplore %:p:h<cr>'
 
+augroup netrw_mapping
+  autocmd!
+  autocmd filetype netrw call NetrwMapping()
+augroup END
+
+function! NetrwMapping()
+  nmap <buffer> <c-l> <c-w>l
+endfunction
+
 let g:netrw_altv=1
 let g:netrw_banner=0
 let g:netrw_winsize=20
